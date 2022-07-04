@@ -1,0 +1,620 @@
+body{
+    margin: 0;
+
+    padding: 0;
+}
+/* Estilo del Logo */
+
+#logo {
+    font-family: 'Pacifico', cursive;
+    color:red;
+    font-size: 50px;
+    margin-left: 65%;
+
+}
+/* Estilo  navegador*/
+
+.indices{
+    width: 100%;
+
+
+}
+
+.indices ul{
+    justify-content: center;
+
+    display: flex;
+
+    margin-right: 3%;
+
+    color: #F20505;
+}
+
+
+.indices ul li  {
+    list-style-type: none;
+    text-align: center;
+    margin-left: 0%;
+
+    
+}
+
+.indices ul li a {
+   
+    font-family: 'Pacifico', cursive;
+    
+    padding: 5px;
+    font-size: 25px;
+}
+
+header {
+    height: 10vh;
+}
+
+
+/*Estilo del cuerpo*/
+
+.generalContainer {
+    height: 90vh;
+}
+
+
+.productsContainer {
+  height: 100%;
+  margin-top: 29%;
+  overflow-y: scroll;
+}
+
+.cartContainer {
+    margin-top: 30%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color:#F20505;
+    
+
+}
+
+.cartContainer h2, h3 {
+    margin-top: 5%;
+    
+    font-family: 'Pacifico', cursive;
+    color: #F2F2F2;
+}
+
+
+
+
+/* Estilos de las imagenes */
+
+.productosImg {
+    max-height: 400px;
+}
+
+/*Carta Del Cuerpo*/
+
+.card-cart{
+    display: flex;
+}
+
+.card-cart h5{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.card-cart p{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 80%;
+    margin-left: -100%;
+
+}
+
+.card-cart input{
+    display: inline-block;
+    margin-left: -60%;
+    margin-top: 120%;
+    height: 30px;
+    width: 80px;
+    
+}
+
+
+
+/*Estilo footer*/
+
+.final{
+    background-color:#332E30;
+    width: 100%;
+    margin-top: 30%;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.final h5{
+ color:#F2F2F2;
+
+ font-size: 20px;
+
+ text-align: center;
+}
+
+.final p{
+    color:#F2F2F2;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    font-family: 'Acme', sans-serif;
+}
+
+.final h5 i{
+    color: #F20505;
+}
+
+.final input{
+   margin-left: 15%;
+}
+
+.final ul{
+    color: #F2F2F2;
+
+    list-style-type: none;
+
+    justify-content: flex-start;
+
+    display: flex;
+}
+
+.final ul li{
+    font-size: 30px;
+    margin-left: 16%;
+    text-align:center;
+}
+
+.final li:hover{
+    color:#F20505;
+}
+
+
+/* estilos tablet */
+
+
+@media (min-width: 320px){
+
+    #logo {
+        font-family: 'Pacifico', cursive;
+        color:red;
+        font-size: 50px;
+        margin-left: 15%;
+    
+    }
+
+    .productsContainer {
+        height: 100%;
+        margin-top: 50%;
+        overflow-y: scroll;
+    }
+
+    .cartContainer {
+        margin-top: 51%;
+        height: 100%;
+        overflow-y: scroll;
+        background-color:#F20505;
+        
+    }
+
+    .card-cart h5{
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        text-align: center;
+        margin-left: -50%;
+    
+    }
+    
+    .card-cart p{
+        
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 180%;
+        margin-left: -180%;
+    
+    }
+    
+    .card-cart input{
+        display: inline-block;
+        margin-left: -145%;
+        margin-top: 250%;
+        height: 20px;
+        width: 40px;
+        
+    }
+
+    .final{
+        background-color:#332E30;
+        width: 100%;
+        margin-top: 52%;
+        font-family: 'Acme', sans-serif;
+    
+    }
+
+    .final button {
+        margin-left: 35%;
+    }
+
+    .final ul li{
+        font-size: 30px;
+        margin-left: 14%;
+        text-align:center;
+    }
+
+
+
+    
+
+
+
+
+}
+
+@media (min-width: 375px){
+    .card-cart h5{
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        text-align: center;
+        margin-left: -50%;
+        font-size: 15px;
+    
+    }
+    
+    .card-cart p{
+        
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 70%;
+        margin-left: -130%;
+    
+    }
+    
+    .card-cart input{
+        display: inline-block;
+        margin-left: -80%;
+        margin-top: 130%;
+        height: 20px;
+        width: 40px;
+        
+    }
+}
+
+@media (min-width: 425px){
+
+    .productsContainer {
+        height: 100%;
+        margin-top: 30%;
+        overflow-y: scroll;
+    }
+
+    .cartContainer {
+        margin-top: 30%;
+        height: 100%;
+        overflow-y: scroll;
+        background-color:#F20505;
+        
+    }
+
+    .card-cart h5{
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        text-align: center;
+        margin-left: -30%;
+        font-size: 16px;
+    
+    }
+    
+    .card-cart p{
+        
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 40%;
+        margin-left: -100%;
+        font-size: 18px;
+    
+    }
+    
+    .card-cart input{
+        margin-left: -60%;
+        margin-top: 90%;
+        height: 20px;
+        width: 40px;
+        
+    }
+
+    .final{
+        background-color:#332E30;
+        width: 100%;
+        margin-top: 32%;
+        font-family: 'Acme', sans-serif;
+    
+    }
+
+    .final input{
+        margin-left: 25%;
+
+    }
+
+    .final button {
+        margin-left: 38%;
+    }
+
+    .final ul li{
+        font-size: 30px;
+        margin-left: 17%;
+        text-align:center;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #logo {
+        font-family: 'Pacifico', cursive;
+        color:red;
+        font-size: 50px;
+        margin-left: 140%;
+    
+    }
+
+    /* estilos de cajas */
+
+    .productsContainer {
+        height: 100%;
+        margin-top: 20%;
+        overflow-y: scroll;
+    }
+      
+    .cartContainer {
+          margin-top: 20%;
+          height: 100%;
+          overflow-y: scroll;
+          background-color:#F20505;
+          
+      
+    }
+    
+    /* estilos del carrito */
+    .card-cart h5{
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        margin-left: 60%;
+    
+    }
+    
+    .card-cart p{
+        
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 80%;
+        margin-left: -65%;
+        
+    }
+    
+    .card-cart input{
+        display: inline-block;
+        margin-left: -80%;
+        margin-top: 120%;
+        height: 30px;
+        width: 90px;
+        
+    }
+
+    /* Estilos de cajas (titulos botones precio) */
+
+    .title-productos{
+        font-size: 25px;
+    
+    }
+
+    .price-productos{
+        font-size: 20px;
+
+    }
+
+    /* estilos footer */
+
+    .final{
+        background-color:#332E30;
+        width: 100%;
+        margin-top: 21%;
+        font-family: 'Acme', sans-serif;
+    
+    }
+
+    .final input{
+        margin-left: 30%;
+    }
+
+    .final button{
+       margin-left: 1%;
+    }
+
+    .final ul li{
+        font-size: 30px;
+        margin-left: 20%;
+        text-align:center;
+    }
+
+}
+
+/* resposive para laptop */
+
+@media (min-width: 1024px){
+    #logo {
+        font-family: 'Pacifico', cursive;
+        color:red;
+        font-size: 80px;
+        margin-left: 15%;
+    
+    }
+
+    .indices ul li a {
+   
+        font-family: 'Pacifico', cursive;
+        
+        padding: 5px;
+        font-size: 40px;
+        margin-left: 25px;
+    }
+
+    /* estilos del cuerpo */
+
+    .productsContainer {
+        width: 65%;
+        height: 110%;
+        margin-top: 13%;
+        overflow-y: scroll;
+    }
+
+    .cartContainer {
+        margin-top: 13%;
+        width: 35%;
+        height: 110%;
+        overflow-y: scroll;
+        background-color:#F20505;
+    }
+
+    .datos{
+        margin-left: 50%;
+        margin-top: -40%;
+
+    }
+
+    .card-cart h5{
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #332E30;
+        text-align: left;
+        margin-top: -30%;
+
+    }
+    
+    .card-cart p{
+        
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 100%;
+        margin-left: -100%;
+    
+    }
+    
+    .card-cart input{
+        display: inline-block;
+        margin-left: -120%;
+        margin-top: 170%;
+        height: 30px;
+        width: 80px;
+        
+        
+    }
+
+    /* diseño de footer */
+    .final{
+        background-color:#332E30;
+        height: 280px;
+        width: 100%;
+        margin-top: 21%;
+        font-family: 'Acme', sans-serif;
+    
+    }
+
+    .final h5{
+        color:#F2F2F2;
+       
+        font-size: 35px;
+       
+        text-align: center;
+
+    }
+
+    .final input{
+        margin-left: 40%;
+    }
+
+    .final ul li{
+        font-size: 50px;
+        margin-left: 22%;
+    }
+
+    .final p {
+        font-size: 30px;
+
+    }
+
+
+
+
+
+
+}
+
+/* estilos de laptop L 1440 */
+
+@media (min-width: 1440px) {
+    .productsContainer {
+        width: 65%;
+        height: 110%;
+        margin-top: 8%;
+        overflow-y: scroll;
+    }
+
+    .cartContainer {
+        margin-top: 8%;
+        width: 35%;
+        height: 110%;
+        overflow-y: scroll;
+        background-color:#F20505;
+    }
+
+    .card-cart h5{
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #332E30;
+        text-align: left;
+        margin-top: -30%;
+        font-size: 35px;
+
+
+    }
+    
+    .card-cart p{
+        
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 85%;
+        margin-left: -110%;
+        font-size: 40px;
+    
+    }
+    
+    .card-cart input{
+        display: inline-block;
+        margin-left: -110%;
+        margin-top: 170%;
+        height: 30px;
+        width: 80px;
+    }
+
+    .cartContainer button{
+        font-size: 28px;
+    }
+
+    .final{
+        background-color:#332E30;
+        height: 280px;
+        width: 100%;
+        margin-top: 15%;
+        font-family: 'Acme', sans-serif;
+    
+    }
+
+
+}
+
+/*COLORIN COLORADO ESTE CUENTO SE A TERMINADO*/
+
+
+
